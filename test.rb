@@ -2,6 +2,10 @@ dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
+calls_long = ["axe", "earth", "wind", "fire"]
+
+
+
 def roll_call_dwarves(array)
   array.each_with_index {|name, index| puts "#{index + 1}: #{name}"}
 end
