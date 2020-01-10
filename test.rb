@@ -10,4 +10,4 @@ def summon_captain_planet(array)
   array.map(&capitalize)
 end
 
-puts roll_call_dwarves(dwarves)
+puts summon_captain_planet(planeteer_calls)
