@@ -11,4 +11,8 @@ def summon_captain_planet(array)
  capped.collect {|name| name + "!"}
 end
 
+def long_planeteer_calls(array)
+  array.any? { |word| word.length > 3 }
+end
+
 pp summon_captain_planet(planeteer_calls)
