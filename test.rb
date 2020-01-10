@@ -29,7 +29,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if array.any? {|i| cheese_types.include?(i) }
     new = array & cheese_types
-    pp new.join("")
+    puts new.join("")
   else
     return nil
   end
