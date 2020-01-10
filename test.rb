@@ -6,6 +6,12 @@ calls_long = ["axe", "earth", "wind", "fire"]
 
 calls_short = ["wind", "fire", "tree", "axe", "code"]
 
+contains_cheddar = ["banana", "cheddar", "sock"]
+      
+contains_gouda = ["potato", "gouda", "camembert"]
+     
+no_cheese = ["ham", "cellphone", "computer"]
+
 def roll_call_dwarves(array)
   array.each_with_index {|name, index| puts "#{index + 1}: #{name}"}
 end
