@@ -10,4 +10,4 @@ def summon_captain_planet(array)
   array.map(&capitalize)
 end
 
-puts summon_captain_planet(planeteer_calls)
+pp summon_captain_planet(planeteer_calls)
