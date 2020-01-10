@@ -13,6 +13,10 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  array.any? {|i| cheese_types.include?(i) }
+  if array.any? {|i| cheese_types.include?(i) }
+    new = array & cheese_types
+    puts new.join("")
+  else
+    return nil
+  end
 end
