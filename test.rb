@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(array)
  capped = array.map(&:capitalize)
- capped.collect
+ capped.collect {|name| name + "!"}
 end
 
 pp summon_captain_planet(planeteer_calls)
