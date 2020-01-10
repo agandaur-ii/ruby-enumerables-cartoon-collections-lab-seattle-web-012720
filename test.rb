@@ -7,7 +7,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.map(&:capitalize)
+ capped = array.map(&:capitalize)
+ capped.collect
 end
 
 pp summon_captain_planet(planeteer_calls)
