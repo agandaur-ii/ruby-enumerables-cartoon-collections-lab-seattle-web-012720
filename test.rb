@@ -31,3 +31,7 @@ def find_the_cheese(array)
   array.any? {|i| cheese_types.include?(i) }
 end
 
+puts find_the_cheese(contains_cheddar)
+puts find_the_cheese(contains_gouda)
+puts find_the_cheese(no_cheese)
+
